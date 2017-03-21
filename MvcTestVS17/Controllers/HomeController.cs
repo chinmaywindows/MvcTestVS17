@@ -26,5 +26,13 @@ namespace MvcTestVS17.Controllers
 
             return View();
         }
+
+        public ActionResult MyData()
+        {
+            
+            ViewBag.Message = "Displaying list of customers";
+
+            return View();
+        }
     }
 }
